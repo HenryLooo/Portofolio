@@ -32,13 +32,13 @@ const EmailSection = () => {
                 <Link href="https://github.com/HenryLooo">
                     <Image src={GithubIcon} alt='Github Icon' width={50} height={50}/>
                 </Link>
-                <Link href="linkedin.com">
+                <Link href="https://www.linkedin.com/in/henry-arthur-zhongsan-liu/">
                     <Image src={LinkedinIcon} alt='LinkedIn Icon' width={50} height={50}/>
                 </Link>
-                <Link href="whatsapp.com">
+                <Link href="https://wa.me/6281281235436">
                     <Image src={WhatsappIcon} alt='Whatsapp Icon' width={50} height={50}/>
                 </Link>
-                <Link href="gmail.com">
+                <Link href="mailto:ationgliu54@gmail.com">
                     <Image src={EmailIcon} alt='Email Icon' width={50} height={50}/>
                 </Link>
             </div>
