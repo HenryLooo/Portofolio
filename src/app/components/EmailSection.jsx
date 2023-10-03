@@ -21,7 +21,7 @@ const EmailSection = () => {
         </div>
         <div className='z-9'>
             <h5 className='text-5xl font-bold text-white my-2 text-center'>
-                Let's Connect!
+                Let&apos;s Connect!
             </h5>
             <p className='text-[#ADB7BE] mb-4 max-w-md text-2xl text-center '>
                 I am always looking for opportunities to learn new things or
