@@ -29,7 +29,7 @@ const EmailSection = () => {
                  here are some goodways to do it!
             </p>
             <div className='socials flex flex-row gap-2 justify-center self-center'>
-                <Link href="github.com">
+                <Link href="https://github.com/HenryLooo">
                     <Image src={GithubIcon} alt='Github Icon' width={50} height={50}/>
                 </Link>
                 <Link href="linkedin.com">
