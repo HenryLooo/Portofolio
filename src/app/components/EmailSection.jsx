@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-mark.svg"
 import LinkedinIcon from "../../../public/linkedin-mark.svg"
 import WhatsappIcon from "../../../public/whatsapp-mark.svg"
 import EmailIcon from "../../../public/email-mark.png"
+import InstagramIcon from "../../../public/instagram-mark.svg"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -36,9 +37,14 @@ const EmailSection = () => {
                     <Image src={LinkedinIcon} alt='LinkedIn Icon' width={50} height={50}/>
                 </Link>
                 <Link href="https://wa.me/6281281235436">
-                    <Image src={WhatsappIcon} alt='Whatsapp Icon' width={50} height={50}/>
+                    <Image src={WhatsappIcon} alt='Whatsapp Icon' width={50} height={50}
+                    className='justify-center self-center pt-1'/>
                 </Link>
-                <Link href="mailto:ationgliu54@gmail.com">
+                <Link href="https://instagram.com/henryarthurr">
+                    <Image src={InstagramIcon} alt='insta Icon' width={50} height={50}
+                    className='justify-center self-center'/>
+                </Link>
+                <Link href="mailto:henry.zhongsan@binus.ac.id">
                     <Image src={EmailIcon} alt='Email Icon' width={50} height={50}/>
                 </Link>
             </div>

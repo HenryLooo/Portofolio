@@ -27,7 +27,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'>
                 <li>SMP Damai</li>
                 <li>SMAN 19 Jakarta</li>
-                <li>Bina Nusantara University, Indonesia</li>
+                <li>Bina Nusantara University</li>
             </ul>
         )
     },
@@ -37,10 +37,10 @@ const TAB_DATA = [
         content:(
             <ul className='list-disc pl-2'>
                 <li>Head of Student Organization @SMP Damai</li>
-                <li>Head of Secretariat, Entrepreneurship, and Internal Relation @KMBD Bina Nusantara</li>
-                <li>Game Programmer of @BGDC Bina Nusantara 3rd Batch Talent Group</li>
+                <li>Head of Secretariat, Entrepreneurship, and Internal Relation Division @KMBD Bina Nusantara</li>
+                <li>Game Programmer @BGDC Bina Nusantara 3rd Batch Talent Group "Forgotten Red Panda"</li>
                 <li>Game Programmer for Evul University</li>
-                <li>Ex-Website Editor for Hong Kong Committee something idfk</li>
+                <li>Ex-Website Editor for Hong Kong Committee</li>
             </ul>
         )
     },
@@ -64,9 +64,7 @@ const AboutSection = () => {
                     About Me
                 </h2>
                 <p className='text-base lg:text-lg'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Dignissimos doloribus consequatur minus sunt quas corporis? 
-                    Optio fugit dicta necessitatibus, aut non sunt ea laudantium vero, harum quod eos expedita sint.
+                    As a CS major student with a hint of interest in art, I am passionate about using technology to create engaging and meaningful experiences for users. I am also an avid artist, and I enjoy using my creativity to inform my design work.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton 

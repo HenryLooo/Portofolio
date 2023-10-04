@@ -8,30 +8,40 @@ import { motion, useInView } from "framer-motion"
 const projectsData =[
     {
         id:1,
-        title:"React Portfolio Website",
-        description:"Project Desc",
-        image:"/images/1Porto.jpg",
+        title:"Hongkong Committee on the Promotion of Civic Education Calendar Website",
+        description:"Editing and maintaining the calendar website for the Hongkong Committee on the Promotion of Civic Education.",
+        image:"/images/CPCE.jpg",
         tag: ["All","Web"],
-        gitUrl: "/",
-        previewUrl: "/"
+        gitUrl: "https://github.com/HenryLooo/2023",
+        previewUrl: "https://www.cpce.gov.hk/main/tc/index.html"
     },
     {
         id:2,
-        title:"React Portfolio Website",
-        description:"Project Desc",
-        image:"/images/2Porto.jpg",
-        tag: ["All","Web"],
-        gitUrl: "/",
-        previewUrl: "/"
+        title:"Horizons",
+        description:"Designed the UI for a travel app called 'Horizons'.",
+        image:"/images/Horizons.png",
+        tag: ["All","Mobile"],
+        gitUrl: "https://www.behance.net/gallery/164237103/Horizons",
+        previewUrl: "https://www.figma.com/proto/RgDIGOtKa2Al1zYfBKEDYc/App-Horizons?page-id=0%3A1&type=design&node-id=22-652&viewport=302%2C144%2C0.18&t=AxikVIza1YkbIYsD-1&scaling=scale-down&starting-point-node-id=66%3A608&mode=design"
+    
     },
     {
         id:3,
         title:"React Portfolio Website",
-        description:"Project Desc",
-        image:"/images/3Porto.png",
-        tag: ["All","Mobile"],
-        gitUrl: "/",
-        previewUrl: "/"
+        description:"Created a portofolio website with Next.js and deployed it with vercel.",
+        image:"/images/Portofolio-Web.png",
+        tag: ["All","Web"],
+        gitUrl: "https://github.com/HenryLooo/Portofolio",
+        previewUrl: "https://henryloo.vercel.app/"
+    },
+    {
+        id:4,
+        title:"Forgotten Red Panda",
+        description:"Programmed my first game called 'Forgotten Red Panda'!",
+        image:"/images/Forgotten-Red-Panda.png",
+        tag: ["All","Games"],
+        gitUrl: "https://github.com/HenryLooo/ForgottenRedPanda",
+        previewUrl: "https://bgdc.itch.io/forgotten-red-panda"
     },
 ]
 const ProjectsSection = () => {
@@ -70,6 +80,10 @@ const ProjectsSection = () => {
         <ProjectTag onClick={handleTagChange} 
         name="Mobile" 
         isSelected={tag === "Mobile"}
+        />
+        <ProjectTag onClick={handleTagChange} 
+        name="Games" 
+        isSelected={tag === "Games"}
         />
     </div>
     <ul  ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>

@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
+import Link from "next/link"
 
 
 const HeroSection = () => {
@@ -28,22 +29,24 @@ const HeroSection = () => {
                         ]}
                         wrapper='span'
                         repeat={Infinity}
-                        speed={50}
+                        speed={150}
                     />
                     </span>
                 </h1>
                 
-                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quidem esse, adipisci eum consequuntur consequatur,
-                    excepturi est similique nulla aspernatur nisi nesciunt quasi natus illo nostrum cum sunt pariatur, atque iure?
+                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>A college undergraduate from Bina Nusantara University, currently taking a computer science major with a focus on interactive multimedia.
                 </p>
                 <div>
                 <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white'>
+                    <Link href="mailto:henry.zhongsan@binus.ac.id">
                     Contact Me
+                    </Link>
                     </button>
                 <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3'>
                     <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
-                        Linked In
+                    <Link href="https://www.linkedin.com/in/henry-arthur-zhongsan-liu/">
+                    Linked In
+                    </Link>
                     </span>
                     </button>
                 </div>
