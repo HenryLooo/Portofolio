@@ -38,7 +38,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'>
                 <li>Head of Student Organization @SMP Damai</li>
                 <li>Head of Secretariat, Entrepreneurship, and Internal Relation Division @KMBD Bina Nusantara</li>
-                <li>Game Programmer @BGDC Bina Nusantara 3rd Batch Talent Group "Forgotten Red Panda"</li>
+                <li>Game Programmer @BGDC Bina Nusantara 3rd Batch Talent Group &quot;Forgotten Red Panda&quot;</li>
                 <li>Game Programmer for Evul University</li>
                 <li>Ex-Website Editor for Hong Kong Committee</li>
             </ul>
