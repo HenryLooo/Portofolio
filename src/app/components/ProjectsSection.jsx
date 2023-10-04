@@ -43,6 +43,24 @@ const projectsData =[
         gitUrl: "https://github.com/HenryLooo/ForgottenRedPanda",
         previewUrl: "https://bgdc.itch.io/forgotten-red-panda"
     },
+    {
+        id:5,
+        title:"There will be another one here",
+        description:"my ocd cannot handle this, so enjoy this cute picture of a baby seal!",
+        image:"/images/Baby-Seal.jpg",
+        tag: ["All","Games"],
+        gitUrl: "https://www.google.com/search?q=baby+seal+cute+pic+4k&tbm=isch&ved=2ahUKEwjqo9bavNuBAxXZmmMGHYrcA-AQ2-cCegQIABAA&oq=baby+seal+cute+pic+4k&gs_lcp=CgNpbWcQAzoECCMQJ1DiA1jvBmCGCGgAcAB4AIABqAKIAfkGkgEFMC40LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=G98cZaqqD9m1juMPirmPgA4&bih=790&biw=1528#imgrc=WCI4Tx09av0WrM",
+        previewUrl: "https://www.google.com/search?q=baby+seal+cute+pic+4k&tbm=isch&ved=2ahUKEwjqo9bavNuBAxXZmmMGHYrcA-AQ2-cCegQIABAA&oq=baby+seal+cute+pic+4k&gs_lcp=CgNpbWcQAzoECCMQJ1DiA1jvBmCGCGgAcAB4AIABqAKIAfkGkgEFMC40LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=G98cZaqqD9m1juMPirmPgA4&bih=790&biw=1528#imgrc=WCI4Tx09av0WrM"
+    },
+    {
+        id:6,
+        title:"I also believe there will be another one here",
+        description:"but this one i'll leave blank, save me some time",
+        image:"/images/Gato.jpeg",
+        tag: ["All","Games"],
+        gitUrl: "",
+        previewUrl: ""
+    },
 ]
 const ProjectsSection = () => {
     const [tag, setTag] = useState("All")
