@@ -48,7 +48,7 @@ const HeroSection = () => {
                     Linked In
                     </Link>
                     </span>
-                    </button>
+                </button>
                 </div>
             </motion.div>
             <motion.div 

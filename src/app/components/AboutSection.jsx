@@ -67,7 +67,7 @@ const AboutSection = () => {
                     About Me
                 </h2>
                 <p className='text-base lg:text-lg'>
-                    As a CS major student with a hint of interest in art, I am passionate about using technology to create engaging and meaningful experiences for users. I am also an avid artist, and I enjoy using my creativity to inform my design work.
+                    As a Computer Science undergraduate with a hint of interest in art, I am passionate about using technology to create engaging and meaningful experiences for users. I am also an avid artist, and I enjoy using my creativity to inform my design work.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton 
